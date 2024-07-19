@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✿ Jen's Crafted Portfolio ✿</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .image-frame {
+      width: 100%;
+      max-width: 350px;
+      padding: 10px;
+      border: 8px solid #ff69b4;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .image-frame img {
+      border-radius: 60%;
+      width: 100%;
+      height: auto;
+    }
+
+    @keyframes float {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    @media (max-width: 767px) {
+      .image-frame {
+        max-width: 200px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">🌸 Jen's Crafted Porfolio 🌸</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Background</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proj">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#interest">Interest</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav flex-row">
+          <li class="nav-item">
+            <a class="social-icon" href="https://x.com/luna_021804?s=21"><i class="ri-twitter-line"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="social-icon" href="https://www.instagram.com/_jenlvry?igsh=NzBrN3g3NzRjanZz&utm_source=qr"><i
+                class="ri-instagram-line"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="social-icon" href="https://www.facebook.com/jenniferchavez.sanchez.5/"><i
+                class="ri-facebook-circle-line"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+
+  <section id="home" class="d-flex align-items-center min-vh-100">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="display-2 fw-bold">Hi there! I am <span class="text-brand">Jennifer</span></h1>
+          <h4 class="mt-3 mb-5">An Aspiring <span class="text-brand">Web Developer</span> and <span
+              class="text-brand">Designer</span></h4>
+          <a href="#about" class="btn btn-brand">Get to Know Me! <i class="ri-arrow-down-double-line"></i></a>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <div class="image-frame">
+            <img src="img/pic1.jpg" alt="Jennifer's Picture" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section-padding section-connector">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title text-center">
+            <h1>About Me</h1>
+            <p>"A talented and skill oriented student with an eye to become a web developer in the future. My interest
+              in
+              web development was sparked by the process of designing and creating websites. It became my
+              constant source of inspiration, allowing me to integrate my computer skills and creativity." 
+              <a href="#get" class="custom-link pt-3"> <span>Scroll Down to Know More!</span> <i class="ri-arrow-down-double-line"></i></a></p>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="get" class="JE_about section-padding section-connector">
+    <div class="JE_row">
+      <div class="JE_video-container">
+        <video src="img/mee.mp4" loop="" autoplay="" muted=""></video>
+      </div>
+      <div  class="JE_content text-center">
+        <h3>Get to Know Me 𓍢ִ໋🌷͙֒</h3><br>
+        <p>I am Jennifer C. Sanchez, an aspiring IT professional with a deep passion for technology. I have dedicated
+          myself to gaining a thorough education in Information Technology at Davao
+          del Norte State College, where I have honed my knowledge and skills in this ever-evolving field.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="skills" class="section-padding section-connector">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title text-center">
+            <h1>My Skills</h1>
+            <p>"These are the skills I possess!"</p>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-2 text-center">
+        <div class="col-lg-4 col-sm-6">
+          <div class="about">
+            <div class="about-icon">
+              <i class="ri-pencil-ruler-2-line"></i>
+            </div>
+            <h5 class="mt-2">Creativity</h5>
+            <p>I am creative in designing because I have a keen eye for aesthetics, a passion for exploring innovative
+              concepts, and the ability to transform ideas into visually captivating designs.</p>
+            <a href="#" class="custom-link">
+              <span>Be Creative</span>
+              <i class="ri-arrow-right-double-line"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="about">
+            <div class="about-icon">
+              <i class="ri-speak-line"></i>
+            </div>
+            <h5 class="mt-2">Communication</h5>
+            <p>I possess strong communication skills as an IT student, enabling me to effectively convey
+              technical concepts to technical and non-technical audiences.</p>
+            <a href="#" class="custom-link">
+              <span>Possess Communication Skills</span> 
+              <i class="ri-arrow-right-double-line"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="about">
+            <div class="about-icon">
+              <i class="ri-pen-nib-fill"></i>
+            </div>
+            <h5 class="mt-2">Adaptability</h5>
+            <p>I possess adaptability because I am constantly open to learning new
+              technologies, allowing me to quickly adjust in dynamic and ever-changing digital environments.
+            </p>
+            <a href="#" class="custom-link">
+              <span>Be Adaptive</span>
+              <i class="ri-arrow-right-double-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="custom mt-5">
+        <a href="#comskill" class="custom-link">
+          <p>"Scroll Down!"</p>
+          <i class="ri-arrow-down-double-line"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--Computer Language Skills-->
+
+  <section id="comskill" class="section-padding section-connector">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title text-center">
+            <h1>My Computer Language Skills</h1>
+            <p>"These are the computer language skills I acquired during my first and second year in college."</p>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-2 text-center">
+        <div class="col-lg-4 col-sm-6">
+          <div class="about py-3 px-4 border">
+            <div class="image-container">
+              <img src="img/java.jpg" alt="Description of the image" class="center-img">
+            </div>
+            <a href="#" class="custom-link">
+              <span>JAVA</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="about py-3 px-4 border">
+            <div class="image-container">
+              <img src="img/html.jpg" alt="Description of the image" class="center-img">
+            </div>
+            <a href="#" class="custom-link">
+              <span>HTML</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="about py-3 px-4 border">
+            <div class="image-container">
+              <img src="img/css.jpg" alt="Description of the image" class="center-img">
+            </div>
+            <a href="#" class="custom-link">
+              <span>CSS</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="about py-3 px-4 border">
+            <div class="image-container">
+              <img src="img/bootstrap.jpg" alt="Description of the image" class="center-img">
+            </div>
+            <a href="#" class="custom-link">
+              <span>BOOTSTRAP</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="about py-3 px-4 border">
+            <div class="image-container">
+              <img src="img/js.jpg" alt="Description of the image" class="center-img">
+            </div>
+            <a href="#" class="custom-link">
+              <span>JAVASCRIPT</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="about py-3 px-4 border">
+            <div class="image-container">
+              <img src="img/php.jpg" alt="Description of the image" class="center-img">
+            </div>
+            <a href="#" class="custom-link">
+              <span>PHP</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section-padding section-connector">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title text-center">
+            <h1>My Background</h1>
+            <p>"These are my Educational Background."</p>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container ">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-12">
+                <div class="educ p-5 pt-0">
+                  <h5>Elementary School</h5>
+                  <small class="text-brand">2011-2016</small>
+                  <p class="mb-0">Nanyo Central Elementary School</p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="educ p-5 pt-0">
+                  <h5>Junior High School</h5>
+                  <small class="text-brand">2016-2020</small>
+                  <p class="mb-0">Panabo National High School</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-12">
+                <div class="educ p-5 pt-0">
+                  <h5>Senior High School</h5>
+                  <small class="text-brand">2020-2022</small>
+                  <p class="mb-0">Panabo National High School</p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="educ p-5 pt-0">
+                  <h5>First Year</h5>
+                  <small class="text-brand">2022-2023</small>
+                  <p class="mb-0">Davao del Norte State College</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-12">
+                <div class="educ p-5 pt-0">
+                  <h5>Second Year</h5>
+                  <small class="text-brand">2023-2024</small>
+                  <p class="mb-0">Davao del Norte State College</p>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="educ p-5 pt-0">
+                  <h5>Upcoming Third Year</h5>
+                  <small class="text-brand">Present</small>
+                  <p class="mb-0">Davao del Norte State College</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--PROJECTS-->
+  <section id="proj" class="section-padding section-connector">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title text-center">
+            <h1>My Projects</h1>
+            <p>"These are my projects for the past two years! From Latest to Oldest---=>"</p>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <div id="carouselProjects" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row g-2">
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/pos8.png" alt="">
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="proj">
+                  <img src="proj/pos9.png" alt="">
+                  <div class="content">
+                    <div class="btn btn-outline-light">POS Convenience Store System</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/pos16.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-2">
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/fluffy1.png" alt="">
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="proj">
+                  <img src="proj/fluffy2.png" alt="">
+                  <div class="content">
+                    <div class="btn btn-outline-light">Fluffy Room Hotel Management System</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/fluffy3.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-2">
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/fm1.png" alt="">
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="proj">
+                  <img src="proj/fm2.png" alt="">
+                  <div class="content">
+                    <div class="btn btn-outline-light">Fruit Array Project</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/fm3.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-2">
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/unnamed1.png" alt="">
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="proj">
+                  <img src="proj/unnamed8.png" alt="">
+                  <div class="content">
+                    <div class="btn btn-outline-light">Add, Delete, Update Project</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/unnamed9.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-2">
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/limitcalc7.png" alt="">
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="proj">
+                  <img src="proj/limitcalc1.png" alt="">
+                  <div class="content">
+                    <div class="btn btn-outline-light">0-10 Limit Calculator</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/limitcalc2.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-2">
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/calc1.png" alt="">
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="proj">
+                  <img src="proj/calc2.png" alt="">
+                  <div class="content">
+                    <div class="btn btn-outline-light">Loaning Calculator</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/calc3.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-2">
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/web1.png" alt="">
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="proj">
+                  <img src="proj/web2.png" alt="">
+                  <div class="content">
+                    <div class="btn btn-outline-light">Portfolio Website</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/web3.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-2">
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/pdic1.png" alt="">
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="proj">
+                  <img src="proj/pdic2.png" alt="">
+                  <div class="content">
+                    <div class="btn btn-outline-light">PDIC Government Website</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/pdic3.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-2">
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/dup1.png" alt="">
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="proj">
+                  <img src="proj/dup2.png" alt="">
+                  <div class="content">
+                    <div class="btn btn-outline-light">Duplicate Government Website</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <img src="proj/dup3.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        </div>
+        <div class="carousel-title-box">
+          <div class="carousel-title">
+            <span id="carouselTitle"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Interest-->
+
+  <section id="interest" class="section-padding section-connector">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title text-center">
+            <h1>My Interest</h1>
+            <p>"These are my interest and passion in life!"</p>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-2">
+        <div class="col-lg-4 col-sm-6">
+          <div class="interest">
+            <img src="img/pic1.jpeg" alt="">
+            <div class="content">
+              <div class="btn btn-outline-light">Love for Books</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="interest">
+            <img src="img/pic2.jpeg" alt="">
+            <div class="content">
+              <div class="btn btn-outline-light">Passion for Travelling</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="interest">
+            <img src="img/pic3.jpeg" alt="">
+            <div class="content">
+              <div class="btn btn-outline-light">Love for Sports</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="interest">
+            <img src="img/pic4.jpeg" alt="">
+            <div class="content">
+              <div class="btn btn-outline-light">Love for Music</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="interest">
+            <img src="img/pic5.jpeg" alt="">
+            <div class="content">
+              <div class="btn btn-outline-light">Love for Computers</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="interest">
+            <img src="img/pic6.jpeg" alt="">
+            <div class="content">
+              <div class="btn btn-outline-light">Passion for Art</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4><a href="#" class="text-white">Jen's Crafted Porfolio</a></h4>
+            <p>Thank you for visiting my portfolio website! I am looking forward to connecting with you and discussing
+              how we
+              can create innovative solutions together.</p>
+            <ul class="navbar-nav flex-row">
+              <li class="nav-item">
+                <a class="social-icon" href="https://x.com/luna_021804?s=21"><i class="ri-twitter-line"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="social-icon" href="https://www.instagram.com/_jenlvry?igsh=NzBrN3g3NzRjanZz&utm_source=qr"><i
+                    class="ri-instagram-line"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="social-icon" href="https://www.facebook.com/jenniferchavez.sanchez.5/"><i
+                    class="ri-facebook-circle-line"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 ms-auto">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#resume">Background</a></li>
+              <li><a href="#proj">Projects</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 ">
+            <h4>Contacts</h4>
+            <ul>
+              <li>Email: jennifercsanchez021804@gmail.com</li>
+              <li>Phone: (+927-083-3469)</li>
+              <li>Address: Nanyo, Panabo City</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <p class="mb-0">Design by Jennifer Sanchez</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script src="car.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        navLinks.forEach(link => link.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  });
+  </script>
+</body>
+</html>
